@@ -1,1 +1,2 @@
-# Toxic_detection_bert
+# Toxic detection (ruBert)
+Toxic comments are a big problem for society these days, some people are very vulnerable and, after reading negative reviews, they can become depressed and stop visiting the product in which they were insulted. Therefore, the organizers of Tinkoff decided to offer this problem at the hackathon at MIPT on April 14, 2021. This implementation of detecting toxic comments is written in basic ruBert, trained on Russian Wikipedia, on top of which there are 2 fully connected layers (fine tuning applied). On the test sample, the algorithm worked quite well, given the complexity of the toxic vocabulary. Macro Average score f1 showed 0.76.
